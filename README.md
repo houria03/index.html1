@@ -241,7 +241,7 @@
         <li class="tech-tag">Capteur Bmp180</li>
         <li class="tech-tag">Capteur Esp8266/li>
         <li class="tech-tag">Capteur vebrasion </li>
-    </ul>
+     </ul>
 </div>
 
 <div class="footer">
