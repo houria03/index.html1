@@ -203,40 +203,13 @@
     </div>
 
     <h2>Galerie Photos du Projet</h2>
-    <div class="gallery">
+     <div class="gallery">
         <div class="gallery-item">
             <img src="assets/drone.jpg" alt="Drone Intelligent Finalisé">
             <div class="gallery-caption">Drone Finalisé (Vue d'ensemble)</div>
         </div>
-        h2 class="section-title">Les Capteurs Utilisés (مجموعة الحساسات)</h2>
-<div class="gallery">
-    <div class="gallery-item">
-        <img src="mq2.jpg" alt="Capteur MQ2">
-        <div class="gallery-caption">Capteur de Gaz MQ2</div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="dht22.jpg" alt="Capteur DHT22">
-        <div class="gallery-caption">Capteur DHT22 (Temp/Hum)</div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="bmp180.jpg" alt="Capteur BMP180">
-        <div class="gallery-caption">Capteur de Pression BMP180</div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="esp32cam.jpg" alt="ESP32-CAM">
-        <div class="gallery-caption">Module Caméra ESP32</div>
-    </div>
-</div>
         
-        <div class="gallery-item">
-            <img src="photo_2026-04-08_23-26-45.jpg="Système Embarqué ESP32 Sensors">
-            <div class="gallery-caption">Système Embarqué (ESP32 & Capteurs)</div>
-        </div>
-        
-        <div class="gallery-item">
+     <div class="gallery-item">
             <img src="assets/schematic.png" alt="Schéma Électronique Du Projet">
             <div class="gallery-caption">Schéma Électronique (Circuit)</div>
         </div>
