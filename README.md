@@ -210,7 +210,7 @@
         </div>
         
         <div class="gallery-item">
-            <img src="assets/sensors.jpg" alt="Système Embarqué ESP32 Sensors">
+            <img src="photo_2026-04-08_23-26-45.jpg="Système Embarqué ESP32 Sensors">
             <div class="gallery-caption">Système Embarqué (ESP32 & Capteurs)</div>
         </div>
         
