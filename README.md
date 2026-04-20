@@ -223,24 +223,11 @@
 
     <h2>Technologies Clés Utilisées</h2>
     <ul class="tech-list">
-        <li class="tech-tag">ESP32-S3</li>
-        <li class="tech-tag">Arduino Uno</li>
-        <li class="tech-tag">ESP32-CAM</li>
-        <li class="tech-tag">Capteur MQ2</li>
-        <li class="tech-tag">DHT22</li>
-        <li class="tech-tag">Capteur de pluie</li>
-        <li class="tech-tag"> Capteur Niveau de l'eau</li>
-        <li class="tech-tag">Capteur de Flamme</li>
-        <li class="tech-tag"> L'écran lcd</li>
-        <li class="tech-tag">L'écran oled</li>
-        <li class="tech-tag">Buzzer</li>
-        <li class="tech-tag">led Rouge et vert </li>
-        <li class="tech-tag">GPS </li>
-        <li class="tech-tag">Sim900 </li>
-        <li class="tech-tag">Servo Moteur </li>
-        <li class="tech-tag">Capteur Bmp180</li>
-        <li class="tech-tag">Capteur Esp8266/li>
-        <li class="tech-tag">Capteur vebrasion </li>
+        <li class="tech-tag">ESP32-S3</li>     <li class="tech-tag">Arduino Uno</li>         <li class="tech-tag">ESP32-CAM</li>                 <li class="tech-tag">Capteur MQ2</li
+        <li class="tech-tag">DHT22</li>        <li class="tech-tag">Capteur de pluie</li>    <li class="tech-tag"> Capteur Niveau de l'eau</li>   <li class="tech-tag">Buzzer</li>
+        <li class="tech-tag">Capteur de Flamme</li>  <li class="tech-tag"> L'écran lcd</li>   <li class="tech-tag">L'écran oled</li>             <li class="tech-tag">led Rouge et vert </li>
+        <li class="tech-tag">GPS </li>              <li class="tech-tag">Sim900 </li>         <li class="tech-tag">Servo Moteur </li>
+        <li class="tech-tag">Capteur Bmp180</li>     <li class="tech-tag">Capteur Esp8266/li   <li class="tech-tag">Capteur vebrasion </li>
      </ul>
 </div>
 
