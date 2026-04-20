@@ -183,21 +183,23 @@
         <div>Conception et Réalisation d’un Système Intelligent de Détection d’Incidents Dangereux Monté sur un Drone</div>
         
         <div class="info-item">Réalisé par:</div>
-        <div>Houria Mourad & Rachida Mourad</div>
+           <div>Houria Mourad  </div>
+        <div class="info-item">Réalisé par:</div>
+           <div>Rachida Mourad  </div>
         
         <div class="info-item">Niveau:</div>
-        <div>2ème Année Électronique</div>
+           <div>2ème Année Électronique</div>
         
         <div class="info-item">Encadré par:</div>
-        <div>Mourad Hebali</div>
+           <div>Mourad Hebali</div>
         
         <div class="info-item">Année Universitaire:</div>
-        <div>2026 - 2027</div>
-    </div>
+              <div>2026 - 2027</div>
+</div>
 
     <h2>Description du Projet (Résumé)</h2>
     <div class="description-box">
-        هذا المشروع يهدف إلى تصميم نظام مدمج يعتمد على الذكاء الاصطناعي (AI) محمول على درون للكشف عن المخاطر مثل الحرائق وتسرب الغاز بشكل آلي وسريع، باستخدام تقنيات ESP32 و TinyML.
+        هذا المشروع يهدف إلى تصميم نظام مدمج يعتمد على حساسات  محمول على درون للكشف عن المخاطر مثل الحرائق وتسرب الغازو كوارث الطبيعية  بشكل آلي وسريع، باستخدام تقنيات ESP32S3 وArduino uno  .
     </div>
 
     <h2>Galerie Photos du Projet</h2>
@@ -217,11 +219,7 @@
             <div class="gallery-caption">Schéma Électronique (Circuit)</div>
         </div>
         
-        <div class="gallery-item">
-            <img src="assets/ai.png" alt="Modèle TinyML Edge Impulse">
-            <div class="gallery-caption">Modèle TinyML & Résultats IA</div>
-        </div>
-    </div>
+        
 
     <h2>Technologies Clés Utilisées</h2>
     <ul class="tech-list">
@@ -230,8 +228,19 @@
         <li class="tech-tag">ESP32-CAM</li>
         <li class="tech-tag">Capteur MQ2</li>
         <li class="tech-tag">DHT22</li>
-        <li class="tech-tag">TinyML</li>
-        <li class="tech-tag">IoT Monitoring</li>
+        <li class="tech-tag">Capteur de pluie</li>
+        <li class="tech-tag"> Capteur Niveau de l'eau</li>
+        <li class="tech-tag">Capteur de Flamme</li>
+        <li class="tech-tag"> L'écran lcd</li>
+        <li class="tech-tag">L'écran oled</li>
+        <li class="tech-tag">Buzzer</li>
+        <li class="tech-tag">led Rouge et vert </li>
+        <li class="tech-tag">GPS </li>
+        <li class="tech-tag">Sim900 </li>
+        <li class="tech-tag">Servo Moteur </li>
+        <li class="tech-tag">Capteur Bmp180</li>
+        <li class="tech-tag">Capteur Esp8266/li>
+        <li class="tech-tag">Capteur vebrasion </li>
     </ul>
 </div>
 
