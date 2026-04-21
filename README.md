@@ -217,8 +217,8 @@
 
     <div class="gallery-item">
         <img src="photo_2026-04-19_10-30-19.jpg" alt="Test les capteurs">
-        <img src="photo_2026-04-09_00-22-54.jpg" alt="Test les capteurs">
-        <img src="photo_2026-04-08_23-26-45.jpg" alt="Test les capteurs">
+          <img src="photo_2026-04-09_00-22-54.jpg" alt="Test les capteurs">
+           <img src="photo_2026-04-08_23-26-45.jpg" alt="Test les capteurs">
         <div class="gallery-caption">Test des capteurs</div>
     </div>
 
