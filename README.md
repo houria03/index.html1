@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet de Fin d'Études | Houria & Rachida Mourad</title> 
-    <style>
+    <style> 
         :root {
             --primary-color: #1a2a6c; /* أزرق داكن أكاديمي */
             --secondary-color: #b21f1f; /* أحمر للتنبيهات والعناوين */
