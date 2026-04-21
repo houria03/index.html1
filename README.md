@@ -211,7 +211,7 @@
     </div>
 
     <div class="gallery-item">
-        <img src="photo_2026-04-09_00-22-54.jpg" alt="Schéma Électronique Du Projet">
+        <img src="photo_2026-04-09_00-22-54.jpg" alt="Schéma Électronique Du Projet"> 
         <div class="gallery-caption">Schéma Électronique (Circuit)</div>
     </div>
 
