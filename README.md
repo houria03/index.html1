@@ -170,7 +170,7 @@
         </div>
 
         <div class="gallery-item">
-            <img src="photo3.jpg">
+            <img src="photo_2026-04-08_23-26-45.jpg">
             <div class="gallery-caption">Tests des capteurs</div>
         </div>
 
