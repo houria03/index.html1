@@ -51,7 +51,36 @@
 
         h1 { font-size: 28px; margin-bottom: 10px; }
         p.department { font-size: 18px; opacity: 0.9; margin-top: 0; }
+/* Slider */
+.slider {
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 20px;
+}
 
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 12s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(0); }
+    38% { transform: translateX(-100%); }
+    66% { transform: translateX(-100%); }
+    71% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+}
         h2 { 
             color: var(--primary-color); 
             border-bottom: 2px solid var(--secondary-color); 
