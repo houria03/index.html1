@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet de Fin d'Études | Houria & Rachida Mourad</title>
+    <title>Projet de Fin d'Études | Houria & Rachida Mourad</title> 
 
     <style>
         :root {
