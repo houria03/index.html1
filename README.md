@@ -206,17 +206,19 @@
      <div class="gallery">
 
     <div class="gallery-item">
-        <img src="photo_2026-04-08_23-26-45.jpg" alt="Drone Intelligent Finalisé">
+        <img src="" alt="Drone Intelligent Finalisé">
         <div class="gallery-caption">Drone Finalisé (Vue d'ensemble)</div>
     </div>
 
     <div class="gallery-item">
-        <img src="photo_2026-04-09_00-22-54.jpg" alt="Schéma Électronique Du Projet"> 
+        <img src="" alt="Schéma Électronique Du Projet"> 
         <div class="gallery-caption">Schéma Électronique (Circuit)</div>
     </div>
 
     <div class="gallery-item">
         <img src="photo_2026-04-19_10-30-19.jpg" alt="Test les capteurs">
+        <img src="photo_2026-04-09_00-22-54.jpg" alt="Test les capteurs">
+        <img src="photo_2026-04-08_23-26-45.jpg" alt="Test les capteurs">
         <div class="gallery-caption">Test des capteurs</div>
     </div>
 
