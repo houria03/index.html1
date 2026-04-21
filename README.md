@@ -1,208 +1,144 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet de Fin d'Études | Houria & Rachida Mourad</title> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projet PFE Drone</title>
 
-    <style>
-        :root {
-            --primary-color: #1a2a6c;
-            --secondary-color: #b21f1f;
-            --accent-color: #fdbb2d;
-            --bg-color: #f8f9fa;
-            --text-color: #333;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f6fa;
+}
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: var(--text-color);
-        }
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(135deg, #1a2a6c, #2a4099);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
 
-        header {
-            background: linear-gradient(135deg, var(--primary-color), #2a4099);
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
+/* ===== SLIDER ===== */
+.slider {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
 
-        .logo-univ {
-            width: 130px;
-            background: white;
-            padding: 10px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
-        .container {
-            max-width: 1000px;
-            margin: -40px auto 40px;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-        }
+.slide {
+    min-width: 100%;
+}
 
-        h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--secondary-color);
-            padding-bottom: 10px;
-            margin-top: 40px;
-            text-transform: uppercase;
-        }
+.slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 10px;
-            background: #f1f3f5;
-            padding: 20px;
-            border-radius: 10px;
-        }
+/* Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 22px;
+}
 
-        .info-item {
-            font-weight: bold;
-            color: var(--primary-color);
-        }
+.prev { left: 10px; }
+.next { right: 10px; }
 
-        .description-box {
-            background: #fff;
-            padding: 20px;
-            border-right: 5px solid var(--accent-color);
-            direction: rtl;
-            text-align: right;
-        }
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.8);
+}
 
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
-        }
-
-        .gallery-item {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-
-        .gallery-caption {
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
-        }
-
-        .tech-list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .tech-tag {
-            background: #e9ecef;
-            padding: 8px 12px;
-            border-radius: 20px;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background: #eee;
-            margin-top: 40px;
-        }
-    </style>
+/* ===== CONTENT ===== */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <img src="https://upload.wikimedia.org/wikipedia/dz/4/45/Logo_University_of_Mascara.png" class="logo-univ">
-    <h1>Université Mustapha Stambouli de Mascara</h1>
-    <p>Département d'Électrotechnique</p>
+    <h1>Projet Drone Intelligent</h1>
 </header>
 
+<!-- ⭐ SLIDER -->
+<div class="slider">
+
+    <div class="slides" id="slides">
+
+        <div class="slide">
+            <img src="images/photo1.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="images/photo2.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="images/photo3.jpg" alt="">
+        </div>
+
+    </div>
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+
+</div>
+
+<!-- CONTENT -->
 <div class="container">
-
-    <h2>Fiche Technique</h2>
-    <div class="info-grid">
-        <div class="info-item">Titre :</div>
-        <div>Système Intelligent de Détection d’Incidents sur Drone</div>
-
-        <div class="info-item">Réalisé par :</div>
-        <div>Houria Mourad & Rachida Mourad</div>
-
-        <div class="info-item">Niveau :</div>
-        <div>2ème Année Électronique</div>
-
-        <div class="info-item">Encadré par :</div>
-        <div>Mourad Hebali</div>
-
-        <div class="info-item">Année :</div>
-        <div>2026 - 2027</div>
-    </div>
-
-    <h2>Description</h2>
-    <div class="description-box">
-        هذا المشروع يهدف إلى تصميم نظام ذكي يعتمد على حساسات مثبتة على درون للكشف عن الحرائق وتسرب الغاز والكوارث الطبيعية.
-    </div>
-
-    <h2>Galerie</h2>
-    <div class="gallery">
-
-        <div class="gallery-item">
-            <img src="photo1.jpg">
-            <div class="gallery-caption">Drone Finalisé</div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="photo2.jpg">
-            <div class="gallery-caption">Schéma Électronique</div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="photo_2026-04-08_23-26-45.jpg">
-            <div class="gallery-caption">Tests des capteurs</div>
-        </div>
-
-    </div>
-
-    <h2>Technologies</h2>
-    <ul class="tech-list">
-        <li class="tech-tag">ESP32-S3</li>
-        <li class="tech-tag">Arduino Uno</li>
-        <li class="tech-tag">ESP32-CAM</li>
-        <li class="tech-tag">MQ2</li>
-        <li class="tech-tag">DHT22</li>
-        <li class="tech-tag">Capteur de pluie</li>
-        <li class="tech-tag">Capteur d’eau</li>
-        <li class="tech-tag">Buzzer</li>
-        <li class="tech-tag">Capteur de flamme</li>
-        <li class="tech-tag">LCD</li>
-        <li class="tech-tag">OLED</li>
-        <li class="tech-tag">LED</li>
-        <li class="tech-tag">GPS</li>
-        <li class="tech-tag">SIM900</li>
-        <li class="tech-tag">Servo moteur</li>
-        <li class="tech-tag">BMP180</li>
-        <li class="tech-tag">ESP8266</li>
-        <li class="tech-tag">Capteur vibration</li>
-    </ul>
-
+    <h2>Description du projet</h2>
+    <p>Projet drone intelligent pour détection des incidents.</p>
 </div>
 
-<div class="footer">
-    © 2026 Projet de Fin d'Études
-</div>
+<script>
+let index = 0;
+const slides = document.getElementById("slides");
+const total = slides.children.length;
+
+function showSlide() {
+    slides.style.transform = "translateX(" + (-index * 100) + "%)";
+}
+
+function nextSlide() {
+    index++;
+    if (index >= total) index = 0;
+    showSlide();
+}
+
+function prevSlide() {
+    index--;
+    if (index < 0) index = total - 1;
+    showSlide();
+}
+
+/* Auto slide */
+setInterval(() => {
+    nextSlide();
+}, 3000);
+</script>
 
 </body>
 </html>
