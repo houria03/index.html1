@@ -212,7 +212,12 @@
      <div class="gallery-item">
             <img src="assets/schematic.png" alt="Schéma Électronique Du Projet">
             <div class="gallery-caption">Schéma Électronique (Circuit)</div>
-        </div>
+     </div>
+        
+     <div class="gallery-item">
+            <img src="assets/schematic.png" alt="test les capteur ">
+            <div class="gallery-caption"> test les capteur </div>
+     </div>
         
         
 
